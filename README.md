@@ -2,16 +2,16 @@
 <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="ankit chaturvedi, turn image into link, How do I turn a picture into a link?, How to Make a Picture Into a Link, How do you convert a JPG to a URL?, image url generator free, convert jpg image to url link, image to url converter google, How do I make a picture into a link on Facebook?, Can a picture be a link on Facebook?, How do I turn an image into a link?, How do I make a clickable link on Facebook?, How to Add Links to Photos in Facebook, How do I Make my Image Clickable on a fb post?, Creating Clickable images in Facebook Posts, How to Create a Facebook Link Image That Gets More Clicks, facebook image url link, how do i make a picture a clickable link on facebook, how do i make a picture a clickable link on facebook, how to turn an image into a clickable link">
+    <meta name="keywords" content="acsqueen, turn image into link, How do I turn a picture into a link?, How to Make a Picture Into a Link, How do you convert a JPG to a URL?, image url generator free, convert jpg image to url link, image to url converter google, How do I make a picture into a link on Facebook?, Can a picture be a link on Facebook?, How do I turn an image into a link?, How do I make a clickable link on Facebook?, How to Add Links to Photos in Facebook, How do I Make my Image Clickable on a fb post?, Creating Clickable images in Facebook Posts, How to Create a Facebook Link Image That Gets More Clicks, facebook image url link, how do i make a picture a clickable link on facebook, how do i make a picture a clickable link on facebook, how to turn an image into a clickable link">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
     <title>Image Link - Convert Image into Links</title>
     <meta name="description" content="Turn image into a clickable link that can be posted on social network sites like facebook.">
-    <link rel="canonical" href="https://tools.ankitchaturvedi.in/image-link">
+    <link rel="canonical" href="https://acsqueen.blogspot.com/image-link">
     <meta property="og:image" content="uploads/image-link.png">
     <meta property="og:description" content="Turn image into a clickable link that can be posted on social network sites like facebook.">
     <meta property="og:title" content="Use image as Link">
-    <meta property="og:url" content="https://tools.ankitchaturvedi.in/image-link">
+    <meta property="og:url" content="https://acsqueen.blogspot.com/image-link">
 
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -60,7 +60,7 @@
     
     
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="https://tools.ankitchaturvedi.in">
+  <a class="navbar-brand" href="https://acsqueen.blogspot.com">
     <i class="fas fa-link"></i> <b>Image Link</b>
   </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,24 +79,24 @@
         <a class="nav-link" href="/"><b>Home</b></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://tools.ankitchaturvedi.in/google-trends"><b>Hot Trends</b></a>
+        <a class="nav-link" href="https://acsqueen.blogspot.com/google-trends"><b>Hot Trends</b></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://tools.ankitchaturvedi.in/youtube-deeplink"><b>Youtube Deeplink</b></a>
+        <a class="nav-link" href="https://acsqueen.blogspot.com/youtube-deeplink"><b>Youtube Deeplink</b></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://tools.ankitchaturvedi.in/trending-news"><b>Latest News</b></a>
+        <a class="nav-link" href="https://acsqueen.blogspot.com/trending-news"><b>Latest News</b></a>
       </li>
           <li class="nav-item active">
-        <a class="nav-link" href="https://tools.ankitchaturvedi.in/image-link"><b>Image Link</b></a>
+        <a class="nav-link" href="https://acsqueen.blogspot.com/image-link"><b>Image Link</b></a>
       </li>
       
        <li class="nav-item">
-        <a class="nav-link" href="https://tools.ankitchaturvedi.in/image-mosaic"><b>Image Mosaic</b></a>
+        <a class="nav-link" href="https://acsqueen.blogspot.com/image-mosaic"><b>Image Mosaic</b></a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="https://tools.ankitchaturvedi.in/call-to-action-qr-code"><b>Custom QR code</b></a>
+        <a class="nav-link" href="https://acsqueen.blogspot.com/call-to-action-qr-code"><b>Custom QR code</b></a>
       </li>
       
       <li class="nav-item">
@@ -110,11 +110,11 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="https://tools.ankitchaturvedi.in/link-redirect/"><b>Link Cloaker</b></a>
+        <a class="nav-link" href="https://acsqueen.blogspot.com/link-redirect/"><b>Link Cloaker</b></a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="https://tools.ankitchaturvedi.in/verify-visitor/"><b>Verify Visitors</b></a>
+        <a class="nav-link" href="https://acsqueen.blogspot.com/verify-visitor/"><b>Verify Visitors</b></a>
       </li>
     </ul>
   </div>
@@ -141,7 +141,7 @@ if (url.endsWith('/')) {
 }
 
 // Check if the current URL is the home page
-if (url === 'https://tools.ankitchaturvedi.in/') {
+if (url === 'https://acsqueen.blogspot.com/') {
   // Find the "Home" menu item and add the active class
   var homeMenuItem = document.querySelector('a[href="/"]');
   if (homeMenuItem) {
@@ -149,7 +149,7 @@ if (url === 'https://tools.ankitchaturvedi.in/') {
   }
 } else {
   // Extract the tool name from the URL
-  var toolName = url.split('.ankitchaturvedi.in/')[1].split('/')[0];
+  var toolName = url.split('.acsqueen.blogspot.com/')[1].split('/')[0];
 
   // Find the corresponding menu item and add the active class
   var menuItem = document.querySelector('a[href*="' + toolName + '"]');
@@ -259,7 +259,7 @@ if (url === 'https://tools.ankitchaturvedi.in/') {
     </div>
     <div class="col-md-9">
       <input type="file" id="image" name="image" class="form-control" accept="image/*" onkeydown="preventFormSubmission(event)">
-      <small><a href="https://tools.ankitchaturvedi.in/image-mosaic/">Create Facebook like mosaic for multiple images</a></small>
+      <small><a href="https://acsqueen.blogspot.com/image-mosaic/">Create Facebook like mosaic for multiple images</a></small>
     </div>
   </div>
   <div class="row mb-3">
@@ -341,15 +341,15 @@ if (url === 'https://tools.ankitchaturvedi.in/') {
         <div class="container mb-2 mt-5">
   <div class="row justify-content-center">
     <div class="col-auto">
-      <a href="https://tools.ankitchaturvedi.in/privacy"><h6 class="text-white"><b>Privacy Policy</b></h6></a>
+      <a href="https://acsqueen.blogspot.com/privacy"><h6 class="text-white"><b>Privacy Policy</b></h6></a>
     </div>
     <div class="col-auto">
-      <a href="https://tools.ankitchaturvedi.in/terms"><h6 class="text-white"><b>Terms and Conditions</b></h6></a>
+      <a href="https://acsqueen.blogspot.com/terms"><h6 class="text-white"><b>Terms and Conditions</b></h6></a>
     </div>
   </div>
 </div>
 
-<p><b>© 2023 Developed by <a href="https://ankitchaturvedi.in">Ankit Chaturvedi</a></b></p>
+<p><b>© 2023 Developed by <a href="https://acsqueen.blogspot.com">acsqueen</a></b></p>
      
     </div>
   </div>
